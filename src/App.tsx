@@ -20,6 +20,7 @@ import {
   ReportsView,
   SettingsView,
 } from './components/ModuleViews';
+import { MilanoteView } from './components/MilanoteView';
 import { OrderDetailModal, NewOrderModal } from './components/OrderModals';
 import { LoginPage } from './components/LoginPage';
 import {
@@ -698,6 +699,8 @@ export function App() {
               onOpenNewOrder={handleOpenNewOrder}
             />
           )}
+
+          {activeSection === 'milanote' && <MilanoteView lang={lang} />}
 
           {activeSection === 'customers' && (
             <CustomersView lang={lang} customers={liveCustomers} />

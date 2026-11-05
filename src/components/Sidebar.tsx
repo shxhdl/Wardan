@@ -5,6 +5,7 @@ import {
   Home,
   ClipboardList,
   CheckCircle2,
+  LayoutGrid,
   Users,
   BarChart3,
   Settings,
@@ -50,6 +51,14 @@ export const NAV_ITEMS: {
     shortAr: 'اكتملت',
     shortEn: 'Done',
     icon: CheckCircle2,
+  },
+  {
+    id: 'milanote',
+    labelAr: 'Milanote',
+    labelEn: 'Milanote',
+    shortAr: 'Milanote',
+    shortEn: 'Milanote',
+    icon: LayoutGrid,
   },
   {
     id: 'customers',

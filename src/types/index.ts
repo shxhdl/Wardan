@@ -5,6 +5,7 @@ export type NavSection =
   | 'dashboard'
   | 'orders'
   | 'completed'
+  | 'milanote'
   | 'customers'
   | 'reports'
   | 'settings';
