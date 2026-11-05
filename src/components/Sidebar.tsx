@@ -158,7 +158,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-[#4A5035] via-[#4A5035]/65 to-transparent z-10" />
           <div className="absolute inset-y-0 inset-x-0 bg-gradient-to-t from-[#3E432C]/35 via-transparent to-transparent z-10" />
           <img
-            src="/brand/v2-sidebar-vase.png"
+            src="./brand/v2-sidebar-vase.png"
             alt="WARDAN Floral Vase"
             style={{
               WebkitMaskImage:

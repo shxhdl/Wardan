@@ -21,8 +21,8 @@ export const WardanLogo: React.FC<WardanLogoProps> = ({
   }[size];
 
   const src = showSubtitle
-    ? '/brand/wardan-logo-trimmed.png'
-    : '/brand/wardan-calligraphy-only.png';
+    ? './brand/wardan-logo-trimmed.png'
+    : './brand/wardan-calligraphy-only.png';
 
   return (
     <div

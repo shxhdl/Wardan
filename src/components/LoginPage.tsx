@@ -266,7 +266,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
       <div className="lg:w-7/12 relative bg-[#434931] text-[#F6F3EC] flex flex-col justify-between p-8 sm:p-12 lg:p-16 min-h-[360px] lg:min-h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/brand/wardan-entrance.jpg"
+            src="./brand/wardan-entrance.jpg"
             alt="WARDAN"
             className="w-full h-full object-cover object-center opacity-35 scale-105 transition-transform duration-1000"
           />
@@ -303,7 +303,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
         <div className="relative z-10 flex flex-wrap items-center justify-between gap-4 pt-6 border-t border-[#D5B895]/20 text-xs text-[#E6E1D6]/85">
           <div className="flex items-center gap-3">
             <img
-              src="/brand/wardan-sign.jpg"
+              src="./brand/wardan-sign.jpg"
               alt="WARDAN Sign"
               className="w-12 h-12 rounded-xl object-cover border border-[#D5B895]/40 shadow-sm"
             />

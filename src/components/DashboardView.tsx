@@ -176,7 +176,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       {/* 1. Hero Banner (Clean High-Res Photo + Exact Same Banner Dimensions) */}
       <div className="relative rounded-2xl overflow-hidden bg-[#3D3A29] h-[146px] sm:h-[162px] flex items-center shadow-xs border border-[#DFD9CC]">
         <img
-          src="/brand/wardan-hero-clean.jpg"
+          src="./brand/wardan-hero-clean.jpg"
           alt="WARDAN Oman"
           className={`absolute inset-0 w-full h-full object-cover object-[center_26%] pointer-events-none ${
             !isAr ? '-scale-x-100' : ''
@@ -758,7 +758,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           {/* Card B: Sunlit Brown Ceramic Pot Floral Arrangement Photo */}
           <div className="rounded-2xl overflow-hidden border border-[#E2DDD2] shadow-2xs bg-[#EFECE5] flex-1 min-h-[155px]">
             <img
-              src="/brand/v2-bottom-left-floral.png"
+              src="./brand/v2-bottom-left-floral.png"
               alt="WARDAN Floral Arrangement"
               className="w-full h-full object-cover"
             />
