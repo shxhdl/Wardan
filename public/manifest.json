@@ -1,0 +1,24 @@
+{
+  "name": "WARDAN Oman — نظام وردان",
+  "short_name": "WARDAN",
+  "description": "Private Floral Atelier & Store Management System for WARDAN Oman (وردان عُمان)",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F3EC",
+  "theme_color": "#4A5035",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

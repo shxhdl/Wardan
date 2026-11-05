@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <rect width="160" height="160" rx="36" fill="#434931"/>
+  <rect x="6" y="6" width="148" height="148" rx="30" stroke="#D5B895" stroke-opacity="0.22" stroke-width="1.5"/>
+  <g transform="translate(7.5, 36)">
+    <!-- Exact traced WARDAN (وردان) calligraphy in 145x78 space -->
+    <path d="M79,10 L81.5,5 L83.5,9 L83.5,39.5 L79,39.5 Z" fill="#D5B895"/>
+    <path d="M87,17.2 L134.5,11 C133.5,13.8 131.5,15.5 128.5,16 L87,21.5 Z" fill="#D5B895"/>
+    <polygon points="59,15 64,19.8 59,24.5 54,19.8" fill="#D5B895"/>
+    <path d="M72.5,23 L76,29.5 C76.8,34.5 74.5,37.8 68,39.5 C56,42.8 36,43.2 13,35.5 L13,28.5 C34,36.8 55,36.8 67,33.5 C70.5,32.5 71.2,30.5 69.5,27.5 Z" fill="#D5B895"/>
+    <path d="M98,23 L102,30 C103,34.5 100.5,37.5 95,37.5 L84.5,37.5 L84.5,32.5 L94.5,32.5 C96.8,32.5 97.2,31 95.5,28 Z" fill="#D5B895"/>
+    <path d="M108,23 L112,30.5 C113.5,36.5 110.5,41.8 104.5,45 L96.5,42 C104.5,39.2 107.8,36 107,31.5 L105,27.5 Z" fill="#D5B895"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M122.5,23 C126.5,23 128.8,26.5 128.8,31.8 C128.8,37.8 125,42.5 119.5,45.2 L111,42 C118.5,39.5 122.5,37 123.5,34.2 C122.2,34.8 120.8,35 119.5,34.8 C117,34.5 115.8,32.2 116.2,29 C116.8,25.2 119.2,23 122.5,23 Z M121.8,27.8 C119.8,27.8 118.8,29 118.8,30.3 C118.8,31.5 120,32.2 121.8,32 C123.5,31.8 124.5,30.8 124.5,29.5 C124.5,28.3 123.3,27.8 121.8,27.8 Z" fill="#D5B895"/>
+    <text x="73" y="66" text-anchor="middle" fill="#D5B895" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="600" letter-spacing="4.2">WARDAN</text>
+    <text x="73" y="80" text-anchor="middle" fill="#D5B895" fill-opacity="0.6" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" font-weight="500" letter-spacing="3.5">OMAN</text>
+  </g>
+</svg>

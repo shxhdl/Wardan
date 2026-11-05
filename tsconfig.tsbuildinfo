@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/dashboardview.tsx","./src/components/loginpage.tsx","./src/components/moduleviews.tsx","./src/components/ordermodals.tsx","./src/components/sidebar.tsx","./src/components/topbar.tsx","./src/components/wardanlogo.tsx","./src/data/mockdata.ts","./src/types/index.ts"],"version":"5.7.3"}

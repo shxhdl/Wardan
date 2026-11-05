@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --wardan-olive-deep: #434931;
+    --wardan-olive-mid: #4E543B;
+    --wardan-sage-pill: #848871;
+    --wardan-gold: #D5B895;
+    --wardan-gold-dark: #9A7B56;
+    --wardan-cream-bg: #F6F3EC;
+    --wardan-card-beige: #EFECE5;
+    --wardan-surface: #FAF8F4;
+    --wardan-text-dark: #2B2F21;
+    --wardan-text-muted: #6E7162;
+  }
+
+  html[dir="rtl"] body {
+    font-family: 'Tajawal', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html[dir="ltr"] body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* ============================================================================
+   WARDAN Dark Mode Theme Overrides (وضع الشاشة الداكن)
+   ============================================================================ */
+html.dark body {
+  background-color: #191C14;
+  color: #F4F1EA;
+}
+
+html.dark .bg-\[\#F6F3EC\] {
+  background-color: #191C14 !important;
+}
+
+html.dark .bg-\[\#FAF8F4\] {
+  background-color: #23271C !important;
+}
+
+html.dark .bg-\[\#F4F1EA\],
+html.dark .bg-\[\#EFECE5\],
+html.dark .bg-\[\#EFECE5\]\/80,
+html.dark .bg-\[\#EFECE5\]\/75,
+html.dark .bg-\[\#EFECE5\]\/70,
+html.dark .bg-\[\#EFECE5\]\/60,
+html.dark .bg-\[\#EFECE4\] {
+  background-color: #2C3123 !important;
+}
+
+html.dark .text-\[\#2B2F21\],
+html.dark .text-\[\#3B3F2E\] {
+  color: #F4F1EA !important;
+}
+
+html.dark .text-\[\#6E7162\],
+html.dark .text-\[\#5A5E4D\],
+html.dark .text-\[\#4E5242\] {
+  color: #B8BCA6 !important;
+}
+
+html.dark .border-\[\#E6E1D6\],
+html.dark .border-\[\#E6E1D5\],
+html.dark .border-\[\#E2DDD2\],
+html.dark .border-\[\#E5E0D4\],
+html.dark .border-\[\#ECE7DC\],
+html.dark .border-\[\#EAE5DA\],
+html.dark .border-\[\#DCD6C8\],
+html.dark .border-\[\#DFD9CC\],
+html.dark .border-\[\#DED9CD\] {
+  border-color: #383E2D !important;
+}
+
+html.dark .divide-\[\#ECE7DC\] > :not([hidden]) ~ :not([hidden]) {
+  border-color: #333829 !important;
+}
+
+html.dark .bg-\[\#F4EAE6\],
+html.dark .bg-\[\#FDF4F2\] {
+  background-color: #362522 !important;
+}
+
+html.dark .text-\[\#3B3330\] {
+  color: #F2DFDA !important;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6F3EC;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #191C14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9C3B6;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #434931;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #848871;
+}
+
+/* iOS / iPadOS safe-area support */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0.75rem);
+}
